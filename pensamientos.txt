@@ -1,0 +1,4 @@
+Entran materias primas
+Salen materias primas y entran subproductos
+Salen subproductos y entran productos terminados
+Salen productos terminados

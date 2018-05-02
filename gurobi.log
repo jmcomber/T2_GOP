@@ -1,0 +1,418 @@
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:41:27
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:41:47
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:41:59
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:42:13
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:42:21
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:42:38
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:44:15
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:44:36
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:45:08
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:45:20
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:46:06
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:46:41
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:46:57
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:47:15
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:48:05
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:49:21
+
+Academic license - for non-commercial use only
+Optimize a model with 4796 rows, 9744 columns and 14428 nonzeros
+Variable types: 0 continuous, 9744 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 3e+04]
+Presolve removed 4796 rows and 9744 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.05 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82774e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827741718400e+06, best bound 1.827741718400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 04/30/18 18:49:33
+
+Academic license - for non-commercial use only
+Optimize a model with 4796 rows, 9744 columns and 14428 nonzeros
+Variable types: 0 continuous, 9744 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 3e+04]
+Presolve removed 4796 rows and 9744 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82774e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827741718400e+06, best bound 1.827741718400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/01/18 00:15:59
+
+Academic license - for non-commercial use only
+Optimize a model with 6476 rows, 9744 columns and 16943 nonzeros
+Variable types: 0 continuous, 9744 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 1354 rows and 4889 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.2 (win64, Python) logging started 05/01/18 00:16:10
+
+Academic license - for non-commercial use only
+Optimize a model with 5641 rows, 9744 columns and 15273 nonzeros
+Variable types: 0 continuous, 9744 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 2179 rows and 5719 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.2 (win64, Python) logging started 05/01/18 00:16:17
+
+Academic license - for non-commercial use only
+Optimize a model with 5636 rows, 9744 columns and 16103 nonzeros
+Variable types: 0 continuous, 9744 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 5636 rows and 9744 columns
+Presolve time: 0.12s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.15 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827946958400e+06, best bound 1.827946958400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/01/18 00:18:18
+
+Academic license - for non-commercial use only
+Optimize a model with 6476 rows, 9744 columns and 18618 nonzeros
+Variable types: 0 continuous, 9744 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 6476 rows and 9744 columns
+Presolve time: 0.04s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.06 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827951585200e+06, best bound 1.827951585200e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/01/18 00:18:53
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:02:53
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:03:04
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+05]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.15s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.18 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827951585200e+06, best bound 1.827951585200e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:07:13
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827951585200e+06, best bound 1.827951585200e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:07:26
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827951585200e+06, best bound 1.827951585200e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:09:27
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827951585200e+06, best bound 1.827951585200e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:09:55
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.82795e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.827951585200e+06, best bound 1.827951585200e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:17:35
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.62893e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.628925020400e+06, best bound 1.628925020400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:20:39
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.04s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.10 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.62893e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.628925020400e+06, best bound 1.628925020400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 12:22:31
+
+Academic license - for non-commercial use only
+Optimize a model with 9495 rows, 11424 columns and 31524 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+04, 7e+04]
+Presolve removed 9495 rows and 11424 columns
+Presolve time: 0.04s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.62893e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.628925020400e+06, best bound 1.628925020400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 14:09:30
+
+Academic license - for non-commercial use only
+Optimize a model with 9831 rows, 11424 columns and 32868 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Presolve removed 9831 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.62893e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.628925020400e+06, best bound 1.628925020400e+06, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/02/18 14:09:39
+
+Academic license - for non-commercial use only
+Optimize a model with 9831 rows, 11424 columns and 32868 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Presolve removed 9831 rows and 11424 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1.62893e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.628925020400e+06, best bound 1.628925020400e+06, gap 0.0000%
