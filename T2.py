@@ -3,10 +3,6 @@ from gurobipy import *
 
 # INICIO DATOS
 
-demandas = """23756	26009	21481	25723	22079	21337	26072	23545	29733	28493	22698	23380	27039	20511	21907	21817	28811	23976	23867	22041	22409	27790	21098	20529	33000	26956	26608	32776	31021	32609	30495	34675	31655	26377	30241	27398	25345	29365	33615	25230	29036	30616	31016	25777	31940	26644	30267	29317																							
-14150	14411	12816	11115	14030	11490	10645	11745	12380	10718	13355	11358	11934	13745	14522	13251	11405	12785	13184	13585	12099	11488	13745	14285	16800	13900	16206	14837	17996	13780	14657	12358	17593	16350	16558	10117	15463	15676	15633	13692	16563	10782	11484	15657	16503	13920	13376	17806""".split("\t")
-
-
 d_A = "23756	26009	21481	25723	22079	21337	26072	23545	29733	28493	22698	23380	27039	20511	21907	21817	28811	23976	23867	22041	22409	27790	21098	20529".split("\t")
 																							
 d_B = "33000	26956	26608	32776	31021	32609	30495	34675	31655	26377	30241	27398	25345	29365	33615	25230	29036	30616	31016	25777	31940	26644	30267	29317".split("\t")
@@ -103,6 +99,8 @@ SALIDA_MP = model.addVars(DAYS, MP, vtype=GRB.INTEGER, lb=0, name="salidas_MP")
 
 # RESTRICCCIONES
 
+model.addConstrs((LAMBDA[DAYS[0], p] == 0 for p in PRODS), name="stocks iniciales PT")
+
 model.addConstrs((quicksum(D[7 * w + t, p] for t in range(7)) == D_semanal[p][w] for w in WEEKS for p in PRODS), name="demandas diarias de la semana son la semanal")
 
 model.addConstrs((x[t, k, p] >= 2000 * z_p[t, k, p] for t in DAYS for k in LINES for p in PRODS), name="lote mínimo")
@@ -111,20 +109,19 @@ model.addConstrs((x[t, k, p] <= 2000000 * z_p[t, k, p] for t in DAYS for k in LI
 
 model.addConstrs((quicksum(ALPHA[p][s] * x[t, k, p] for p in PRODS) == y[t, k, s] for t in DAYS for k in LINES for s in SUBS), name="salida SE = entrada PT")
 
-model.addConstrs((SALIDA_MP[t, mp] == I[t, mp] - I[t-1, mp] + I3[t, mp] - I3[t-1, mp] + PEDIDO[t, mp] for t in range(24*7 + 1, 48*7) for mp in MP), name="entrada MP")
+model.addConstrs((SALIDA_MP[t-1, mp] == I[t, mp] - I[t-1, mp] + I3[t, mp] - I3[t-1, mp] + PEDIDO[t-1, mp] for t in range(24*7 + 1, 48*7) for mp in MP), name="entrada MP")
 
 model.addConstrs((SALIDA_MP[t, mp] == quicksum(BETA[s][mp] * y[t, k, s] for k in LINES for s in SUBS) for t in DAYS for mp in MP), name="salida MP == entrada SE")
 
 model.addConstrs((y[t, k, s] <= K_s[s, k] * z_s[t, k, s] for t in DAYS for k in LINES for s in SUBS), name="límite capacidad línea subprods")
 
-model.addConstrs((LAMBDA[t+1, p] ==  LAMBDA[t, p] + quicksum(x[t, k, p] for k in LINES) - D[t, p] for p in PRODS for t in range(24 * 7, 48 * 7 - 1)), name="salida PT")
+model.addConstrs((LAMBDA[t+1, p] == LAMBDA[t, p] + quicksum(x[t, k, p] for k in LINES) + w[t, p] - D[t, p] for p in PRODS for t in range(24 * 7, 48 * 7 - 1)), name="salida PT")
 
 model.addConstrs((quicksum(z_s[t, k, s] for s in SUBS) <= 1 for t in DAYS for k in LINES), name="solo un subprod en cada línea")
 
-
-# ESTA RESTRICCIÓN ESTÁ MAL!
-#  z_s[t, k, s] == 1 -> z_s[t + x, k, s] == 0 forall x in [t+1, t+LT_s[s, k]]
-# model.addConstrs((z_s[t + r, k, s] <= 1 - z_s[t, k, s] for r in range(LT_s[s, k]) for t in range(24 * 7, 48 * 7 - LT_s[s, k]) for k in LINES for s in SUBS), name="Respetar lead times: si produzco en t, no puedo producir lo mismo en los siguientes dias? es realmennte eso???")
+for s in SUBS:
+	for k in LINES:
+		model.addConstrs((z_s[t + r, k, s] <= 1 - z_s[t, k, s1] for s1 in SUBS if s1 != s for r in range(LT_s[s, k]) for t in range(24 * 7, 48 * 7 - LT_s[s, k])), name="Respetar lead times: si produzco en t, no puedo producir lo mismo en los siguientes dias? es realmennte eso???")
 
 model.addConstrs((I[t, mp] <= KB_mp[mp] for t in DAYS for mp in MP), name="capacidad bodega")
 
@@ -135,8 +132,6 @@ model.addConstrs(((I[t+1, mp] - I[t, mp]) + (I3[t+1, mp] - I3[t, mp]) <= KE_mp[m
 # model.addConstrs((), name="")
 
 # model.addConstrs((), name="")
-
-
 
 
 

@@ -2,3 +2,6 @@ Entran materias primas
 Salen materias primas y entran subproductos
 Salen subproductos y entran productos terminados
 Salen productos terminados
+
+
+Calcular para la semana cuánta MP necesito (demanda menos inventario)
