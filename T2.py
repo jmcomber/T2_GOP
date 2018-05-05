@@ -96,18 +96,26 @@ PEDIDO = model.addVars(DAYS, MP, vtype=GRB.INTEGER, lb=0, name="pedido_MP")
 
 SALIDA_MP = model.addVars(DAYS, MP, vtype=GRB.INTEGER, lb=0, name="salidas_MP")
 
+tau = model.addVars(DAYS, MP, vtype=GRB.BINARY, name="costo_orden")
 
 # RESTRICCCIONES
 
 model.addConstrs((LAMBDA[DAYS[0], p] == 0 for p in PRODS), name="stocks iniciales PT")
 
-model.addConstrs((quicksum(D[7 * w + t, p] for t in range(7)) == D_semanal[p][w] for w in WEEKS for p in PRODS), name="demandas diarias de la semana son la semanal")
+model.addConstrs((quicksum(D[7 * sem + t, p] for t in range(7)) == D_semanal[p][sem] for sem in WEEKS for p in PRODS), name="demandas diarias de la semana son la semanal")
 
 model.addConstrs((x[t, k, p] >= 2000 * z_p[t, k, p] for t in DAYS for k in LINES for p in PRODS), name="lote mínimo")
 
 model.addConstrs((x[t, k, p] <= 2000000 * z_p[t, k, p] for t in DAYS for k in LINES for p in PRODS), name="relación variables")
 
-model.addConstrs((quicksum(ALPHA[p][s] * x[t, k, p] for p in PRODS) == y[t, k, s] for t in DAYS for k in LINES for s in SUBS), name="salida SE = entrada PT")
+model.addConstrs((N[24*7, s] == 0 for s in SUBS), name="")
+
+
+# EN ESTA ESTAMOS: REVISAR
+model.addConstrs((N[t+1, s] == N[t, s] + quicksum(y[t, k, s] for k in LINES) - quicksum(ALPHA[p][s] * x[t, k, p] for p in PRODS for k in LINES) for t in range(24*7, 48*7-1) for s in SUBS), name="")
+
+
+# model.addConstrs((quicksum(ALPHA[p][s] * x[t, k, p] for p in PRODS for k in LINES) == N[t, s] - N[t-1, s] for t in range(24*7, 48*7-1) for s in SUBS), name="salida SE = entrada PT")
 
 model.addConstrs((SALIDA_MP[t-1, mp] == I[t, mp] - I[t-1, mp] + I3[t, mp] - I3[t-1, mp] + PEDIDO[t-1, mp] for t in range(24*7 + 1, 48*7) for mp in MP), name="entrada MP")
 
@@ -121,7 +129,7 @@ model.addConstrs((quicksum(z_s[t, k, s] for s in SUBS) <= 1 for t in DAYS for k 
 
 for s in SUBS:
 	for k in LINES:
-		model.addConstrs((z_s[t + r, k, s] <= 1 - z_s[t, k, s1] for s1 in SUBS if s1 != s for r in range(LT_s[s, k]) for t in range(24 * 7, 48 * 7 - LT_s[s, k])), name="Respetar lead times: si produzco en t, no puedo producir lo mismo en los siguientes dias? es realmennte eso???")
+		model.addConstrs((z_s[t + r, k, s] <= 1 - z_s[t, k, s1] for s1 in SUBS if s1 != s for r in range(LT_s[s, k]) for t in range(24 * 7, 48 * 7 - LT_s[s, k])), name="Respetar lead times {}, {}".format(s, k))
 
 model.addConstrs((I[t, mp] <= KB_mp[mp] for t in DAYS for mp in MP), name="capacidad bodega")
 
@@ -129,7 +137,7 @@ model.addConstrs((I[24*7, mp] + I3[24*7, mp] == I0_mp[mp] for mp in MP), name="s
 
 model.addConstrs(((I[t+1, mp] - I[t, mp]) + (I3[t+1, mp] - I3[t, mp]) <= KE_mp[mp] for mp in MP for t in range(24 * 7, 48 * 7 - 1)), name="capacidad entrega MP")
 
-# model.addConstrs((), name="")
+model.addConstrs((PEDIDO[t, mp] <= 2000000 * tau[t, mp] for t in DAYS for mp in MP), name="activación binaria")
 
 # model.addConstrs((), name="")
 
@@ -138,15 +146,20 @@ model.addConstrs(((I[t+1, mp] - I[t, mp]) + (I3[t+1, mp] - I3[t, mp]) <= KE_mp[m
 obj = quicksum(CV_p[p] * x[t, k, p] for t in DAYS for k in LINES for p in PRODS) + quicksum(CV3_p[p] * w[t, p] for t in DAYS for p in PRODS) + \
 quicksum(CB_mp[m] * I[t, m] for t in DAYS for m in MP) + quicksum(CF_p[p] * z_p[t, k, p] for t in DAYS for k in LINES for p in PRODS) + \
 quicksum(CB3_mp[m] * I3[t, m] for t in DAYS for m in MP) + quicksum(ALPHA_BETA[p] * LAMBDA[t, p] for t in DAYS for p in PRODS) + \
-quicksum(CVB_s[s] * N[t, s] for t in DAYS for s in SUBS)
+quicksum(CVB_s[s] * N[t, s] for t in DAYS for s in SUBS) + quicksum(CF_mp[mp] * tau[t, mp] for t in DAYS for mp in MP)
 
 
 model.setObjective(obj, GRB.MINIMIZE)
 
 model.optimize()
 
-# for v in model.getVars():
-# 	if v.X != 0:
-# 		print("{} {}".format(v.Varname, v.X))
+
+file = open("resultados_prod.txt", "w")
+for v in model.getVars():
+	if v.X != 0:
+		# print("{} {}".format(v.Varname, v.X))
+		file.write("{} {}\n".format(v.Varname, v.X))
+file.close()
+
 
 

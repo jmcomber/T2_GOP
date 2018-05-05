@@ -974,3 +974,594 @@ Solution count 2: 6.14053e+09 6.14053e+09
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 6.140527209867e+09, best bound 6.140527209867e+09, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/03/18 17:41:42
+
+Academic license - for non-commercial use only
+Optimize a model with 23623 rows, 11424 columns and 61116 nonzeros
+Variable types: 0 continuous, 11424 integer (2688 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 4e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140527e+09
+Presolve removed 23623 rows and 11424 columns
+Presolve time: 0.08s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.09 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 6.14053e+09 6.14053e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140527209867e+09, best bound 6.140527209867e+09, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/03/18 20:21:15
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.59s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.63 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/03/18 20:26:31
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.18s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/03/18 20:29:21
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.23s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.24 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:06:31
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.18s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:07:25
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.18s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:08:29
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.18s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.19 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:09:31
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.18s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.18 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:10:03
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 24129 rows and 11597 columns
+Presolve time: 0.19s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.20 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:10:52
+
+Academic license - for non-commercial use only
+Optimize a model with 23119 rows, 12264 columns and 60108 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 22785 rows and 11597 columns
+Presolve time: 0.32s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.33 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140549221367e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:11:32
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62796 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 18006 rows and 6920 columns
+Presolve time: 0.13s
+Presolved: 6457 rows, 5344 columns, 26822 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 5344 integer (2004 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.14 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140536567867e+09, gap 0.0003%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:11:55
+
+Academic license - for non-commercial use only
+Optimize a model with 23795 rows, 12264 columns and 58788 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 25873.366800
+Presolve removed 23461 rows and 11597 columns
+Presolve time: 0.17s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 25850.866800
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Root relaxation: objective 2.259320e+04, 43 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 22593.2031    0    2 25850.8668 22593.2031  12.6%     -    0s
+     0     0 22596.8196    0   10 25850.8668 22596.8196  12.6%     -    0s
+     0     0 22887.9336    0    2 25850.8668 22887.9336  11.5%     -    0s
+     0     0 22891.2562    0    2 25850.8668 22891.2562  11.4%     -    0s
+     0     0 22901.6980    0    6 25850.8668 22901.6980  11.4%     -    0s
+     0     0 22921.3684    0    6 25850.8668 22921.3684  11.3%     -    0s
+     0     0 22923.2745    0    2 25850.8668 22923.2745  11.3%     -    0s
+     0     0 22964.8433    0    5 25850.8668 22964.8433  11.2%     -    0s
+     0     0 23074.2783    0    1 25850.8668 23074.2783  10.7%     -    0s
+     0     0 23088.2160    0    3 25850.8668 23088.2160  10.7%     -    0s
+     0     0 23098.0273    0   10 25850.8668 23098.0273  10.6%     -    0s
+     0     0 23102.1537    0    5 25850.8668 23102.1537  10.6%     -    0s
+     0     0 23107.9668    0    7 25850.8668 23107.9668  10.6%     -    0s
+     0     0 23130.1267    0    5 25850.8668 23130.1267  10.5%     -    0s
+     0     0 23140.8054    0    7 25850.8668 23140.8054  10.5%     -    0s
+     0     0 23246.7128    0    1 25850.8668 23246.7128  10.1%     -    0s
+     0     0 23247.8923    0   15 25850.8668 23247.8923  10.1%     -    0s
+     0     0 23262.5690    0   16 25850.8668 23262.5690  10.0%     -    0s
+     0     0 23274.3917    0   10 25850.8668 23274.3917  10.0%     -    0s
+     0     0 23305.6589    0    1 25850.8668 23305.6589  9.85%     -    0s
+     0     0 23306.3103    0   13 25850.8668 23306.3103  9.84%     -    0s
+     0     0 23337.9381    0    5 25850.8668 23337.9381  9.72%     -    0s
+     0     0 23377.5675    0    3 25850.8668 23377.5675  9.57%     -    0s
+     0     0 23388.9589    0    9 25850.8668 23388.9589  9.52%     -    0s
+     0     0 23396.8842    0    5 25850.8668 23396.8842  9.49%     -    0s
+     0     0 23506.3739    0    1 25850.8668 23506.3739  9.07%     -    0s
+     0     0 23624.2661    0    1 25850.8668 23624.2661  8.61%     -    0s
+     0     0 24055.7310    0    1 25850.8668 24055.7310  6.94%     -    0s
+     0     0 24114.6771    0    1 25850.8668 24114.6771  6.72%     -    0s
+     0     0 24173.6232    0    1 25850.8668 24173.6232  6.49%     -    0s
+     0     0     cutoff    0      25850.8668 25850.8668  0.00%     -    0s
+
+Cutting planes:
+  Implied bound: 7
+  Flow cover: 4
+
+Explored 1 nodes (261 simplex iterations) in 0.36 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 25850.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.585086680000e+04, best bound 2.585086680000e+04, gap 0.0000%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:12:57
+
+Academic license - for non-commercial use only
+Optimize a model with 10675 rows, 12264 columns and 35220 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 10341 rows and 11597 columns
+Presolve time: 0.16s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.17 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140546361867e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:14:15
+
+Academic license - for non-commercial use only
+Optimize a model with 24463 rows, 12264 columns and 62128 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Presolve removed 1362 rows and 2889 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:14:26
+
+Academic license - for non-commercial use only
+Optimize a model with 23119 rows, 12264 columns and 60108 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 22785 rows and 11597 columns
+Presolve time: 0.26s
+Presolved: 334 rows, 667 columns, 1166 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 667 integer (167 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.27 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 6.14055e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.140552850867e+09, best bound 6.140549221367e+09, gap 0.0001%
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:19:19
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 05/05/18 16:19:48
+
+Academic license - for non-commercial use only
+Optimize a model with 23791 rows, 12264 columns and 64106 nonzeros
+Variable types: 0 continuous, 12264 integer (3528 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+06]
+  Objective range  [4e-04, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+04]
+Found heuristic solution: objective 6.140553e+09
+Presolve removed 13235 rows and 2252 columns
+Presolve time: 0.35s
+Presolved: 10556 rows, 10012 columns, 42492 nonzeros
+Found heuristic solution: objective 6.140553e+09
+Variable types: 0 continuous, 10012 integer (3338 binary)
+
+Root relaxation: objective 5.115241e+09, 7815 iterations, 0.57 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 5.1152e+09    0 2379 6.1406e+09 5.1152e+09  16.7%     -    1s
+     0     0 5.1152e+09    0 3126 6.1406e+09 5.1152e+09  16.7%     -    2s
+     0     0 5.1152e+09    0 3449 6.1406e+09 5.1152e+09  16.7%     -    2s
+     0     0 5.1152e+09    0 3230 6.1406e+09 5.1152e+09  16.7%     -    2s
+     0     0 5.1153e+09    0 3615 6.1406e+09 5.1153e+09  16.7%     -    4s
+     0     0 5.1153e+09    0 3615 6.1406e+09 5.1153e+09  16.7%     -    4s
+H    0     0                    6.099520e+09 5.1153e+09  16.1%     -    5s
+     0     2 5.1153e+09    0 3615 6.0995e+09 5.1153e+09  16.1%     -    6s
+H  177   175                    6.063917e+09 5.1155e+09  15.6%  20.8    8s
+   192   194 5.1198e+09   97 2578 6.0639e+09 5.1155e+09  15.6%  27.9   10s
+H  212   206                    6.063916e+09 5.1155e+09  15.6%  47.4   10s
+H  245   224                    6.058021e+09 5.1155e+09  15.6%  55.5   11s
+H  312   313                    6.058017e+09 5.1155e+09  15.6%  46.5   13s
+H  353   354                    6.037981e+09 5.1155e+09  15.3%  41.6   13s
+H  387   388                    6.037981e+09 5.1155e+09  15.3%  39.1   13s
+   487   489 5.1318e+09  228 2617 6.0380e+09 5.1155e+09  15.3%  39.8   15s
+H  610   591                    6.024313e+09 5.1155e+09  15.1%  44.1   17s
+H  720   721                    5.763456e+09 5.1155e+09  11.2%  42.1   19s
+   757   759 5.1388e+09  363 2755 5.7635e+09 5.1155e+09  11.2%  41.3   21s
+   916   917 5.1402e+09  466 3003 5.7635e+09 5.1155e+09  11.2%  37.6   25s
+  1288  1289 5.1434e+09  653 1722 5.7635e+09 5.1155e+09  11.2%  29.4   30s
+  1596  1598 5.1434e+09  747 1610 5.7635e+09 5.1155e+09  11.2%  24.4   35s
+H 1826  1827                    5.653647e+09 5.1155e+09  9.52%  21.5   36s
+H 1889  1889                    5.653647e+09 5.1155e+09  9.52%  20.8   37s
+H 2136  2137                    5.393804e+09 5.1155e+09  5.16%  18.6   39s
+  2205  2205 5.1434e+09  933 1610 5.3938e+09 5.1155e+09  5.16%  18.0   40s
+H 2550  2551                    5.327809e+09 5.1155e+09  3.98%  15.8   43s
+  2622  2623 5.1434e+09 1037 1610 5.3278e+09 5.1155e+09  3.98%  15.3   45s
+  3097  3097 5.1434e+09 1137 1610 5.3278e+09 5.1155e+09  3.98%  13.2   51s
+  3669  3670 5.1434e+09 1246 1609 5.3278e+09 5.1155e+09  3.98%  11.3   56s
+  4106  4106 5.1434e+09 1352 1609 5.3278e+09 5.1155e+09  3.98%  10.2   60s
+  4531  4532 5.1434e+09 1422 1609 5.3278e+09 5.1155e+09  3.98%   9.4   65s
+  5336  5338 5.1434e+09 1602 1609 5.3278e+09 5.1155e+09  3.98%   8.1   71s
+  5911  5913 5.1434e+09 1733 1610 5.3278e+09 5.1155e+09  3.98%   7.5   75s
+  6401  6403 5.1434e+09 1839 1610 5.3278e+09 5.1155e+09  3.98%   7.0   80s
+  6926  6929 5.1434e+09 1945 1610 5.3278e+09 5.1155e+09  3.98%   6.5   85s
+  7667  7668 5.1434e+09 2100 1609 5.3278e+09 5.1155e+09  3.98%   6.0   92s
+  8116  8118 5.1434e+09 2191 1610 5.3278e+09 5.1155e+09  3.98%   5.8   96s
+H 8399  8400                    5.225069e+09 5.1155e+09  2.10%   5.6   98s
+  8689  8689 5.1434e+09 2321 1610 5.2251e+09 5.1155e+09  2.10%   5.5  101s
+H 8993  8993                    5.225063e+09 5.1155e+09  2.10%   5.3  103s
+  9112  9114 5.1434e+09 2426 1608 5.2251e+09 5.1155e+09  2.10%   5.3  105s
+  9892  9893 5.1434e+09 2625 1610 5.2251e+09 5.1155e+09  2.10%   4.9  112s
+H10070 10070                    5.183290e+09 5.1155e+09  1.31%   4.9  113s
+ 10374 10375 5.1434e+09 2743 1610 5.1833e+09 5.1155e+09  1.31%   4.8  115s
+H10511 10511                    5.183283e+09 5.1155e+09  1.31%   4.7  115s
+ 10927 10929 5.1434e+09 2884 1608 5.1833e+09 5.1155e+09  1.31%   4.6  124s
+H11157 11063                    5.171250e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171244e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171240e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171237e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171232e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171226e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171220e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171215e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171209e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171204e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171198e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171193e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171187e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171183e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171179e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171176e+09 5.1155e+09  1.08%   4.5  124s
+H11157 11063                    5.171172e+09 5.1155e+09  1.08%   4.5  124s
+ 11158 11158 5.1434e+09 2952 1609 5.1712e+09 5.1155e+09  1.08%   4.5  126s
+ 12070 12072 5.1434e+09 3175 1610 5.1712e+09 5.1155e+09  1.08%   4.3  131s
+H12233 12234                    5.164963e+09 5.1155e+09  0.96%   4.3  131s
+ 12993 12992 5.1434e+09 3408 1609 5.1650e+09 5.1155e+09  0.96%   4.1  135s
+H14032 14032                    5.164894e+09 5.1155e+09  0.96%   4.1  139s
+ 14180 14180 5.1435e+09 3768 1277 5.1649e+09 5.1155e+09  0.96%   4.1  141s
+ 15115 15116 5.1435e+09 4098 1277 5.1649e+09 5.1155e+09  0.96%   3.9  145s
+H15866 15866                    5.164864e+09 5.1155e+09  0.96%   3.8  146s
+H16032 16021                    5.145816e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145815e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145810e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145804e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145800e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145797e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145793e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145789e+09 5.1155e+09  0.59%   3.8  149s
+H16032 16021                    5.145785e+09 5.1155e+09  0.59%   3.8  149s
+ 16246 16234 5.1435e+09 4447 1281 5.1458e+09 5.1155e+09  0.59%   3.8  150s
+H17028 17017                    5.145771e+09 5.1155e+09  0.59%   3.8  152s
+ 17756 17745 5.1435e+09 4979 1279 5.1458e+09 5.1155e+09  0.59%   3.7  156s
+H18240 18228                    5.145419e+09 5.1155e+09  0.58%   3.7  160s
+H18750 18738                    5.144863e+09 5.1155e+09  0.57%   3.6  163s
+ 18999 18988 5.1435e+09 5463 1279 5.1449e+09 5.1155e+09  0.57%   3.6  165s
+H19264 19253                    5.144416e+09 5.1155e+09  0.56%   3.6  166s
+ 20037 20024 5.1435e+09 5787 1264 5.1444e+09 5.1155e+09  0.56%   3.6  171s
+ 20460 20447 5.1435e+09 5929 1264 5.1444e+09 5.1155e+09  0.56%   3.5  175s
+ 21178 21167 5.1435e+09 6141 1266 5.1444e+09 5.1155e+09  0.56%   3.5  180s
+ 21947 21936 5.1435e+09 6356 1268 5.1444e+09 5.1155e+09  0.56%   3.5  185s
+ 22688 22676 5.1435e+09 6568 1262 5.1444e+09 5.1155e+09  0.56%   3.4  190s
+ 23687 23675 5.1435e+09 6848 1268 5.1444e+09 5.1155e+09  0.56%   3.4  196s
+ 24432 24421 5.1435e+09 7058 1268 5.1444e+09 5.1155e+09  0.56%   3.4  200s
+ 25154 25141 5.1435e+09 7267 1264 5.1444e+09 5.1155e+09  0.56%   3.3  205s
+ 25905 25892 5.1435e+09 7481 1266 5.1444e+09 5.1155e+09  0.56%   3.3  210s
+ 26621 26609 5.1435e+09 7692 1262 5.1444e+09 5.1155e+09  0.56%   3.3  215s
+ 27354 27343 5.1435e+09 7901 1266 5.1444e+09 5.1155e+09  0.56%   3.3  220s
+ 28058 28047 5.1435e+09 8108 1268 5.1444e+09 5.1155e+09  0.56%   3.2  225s
+ 28796 28784 5.1435e+09 8320 1268 5.1444e+09 5.1155e+09  0.56%   3.2  230s
+ 29507 29496 5.1435e+09 8533 1266 5.1444e+09 5.1155e+09  0.56%   3.2  235s
+ 30202 30190 5.1435e+09 8742 1262 5.1444e+09 5.1155e+09  0.56%   3.2  240s
+ 30947 30935 5.1435e+09 8956 1262 5.1444e+09 5.1155e+09  0.56%   3.2  245s
+ 31558 31522 5.1435e+09 9100 1278 5.1444e+09 5.1155e+09  0.56%   3.4  250s
+ 31908 31840 5.1435e+09 9164 1271 5.1444e+09 5.1155e+09  0.56%   3.7  255s
+H31963 31862                    5.144393e+09 5.1155e+09  0.56%   3.7  255s
+H31970 31894                    5.144154e+09 5.1155e+09  0.56%   3.7  258s
+H31970 31894                    5.144129e+09 5.1155e+09  0.56%   3.7  258s
+ 32052 31968 5.1435e+09 9193 1271 5.1441e+09 5.1155e+09  0.56%   3.8  260s
+H32267 32155                    5.144110e+09 5.1155e+09  0.56%   4.0  262s
+H32458 32329                    5.144106e+09 5.1155e+09  0.56%   4.2  264s
+ 32576 32446 5.1435e+09 9284 1278 5.1441e+09 5.1155e+09  0.56%   4.2  266s
+ 33266 33118 5.1435e+09 9447 1258 5.1441e+09 5.1155e+09  0.56%   4.3  270s
+ 34343 34194 5.1435e+09 9737 1260 5.1441e+09 5.1155e+09  0.56%   4.3  276s
+ 35180 35031 5.1435e+09 9952 1265 5.1441e+09 5.1155e+09  0.56%   4.2  280s
+ 35964 35816 5.1435e+09 10156 1265 5.1441e+09 5.1155e+09  0.56%   4.2  286s
+ 36958 36809 5.1435e+09 10435 1257 5.1441e+09 5.1155e+09  0.56%   4.1  291s
+ 37733 37583 5.1435e+09 10640 1268 5.1441e+09 5.1155e+09  0.56%   4.1  296s
+ 38476 38326 5.1435e+09 10844 1268 5.1441e+09 5.1155e+09  0.56%   4.1  300s
+ 39518 39370 5.1435e+09 11118 1258 5.1441e+09 5.1155e+09  0.56%   4.1  306s
+ 40295 40148 5.1435e+09 11322 1258 5.1441e+09 5.1155e+09  0.56%   4.0  310s
+ 41347 41196 5.1435e+09 11593 1257 5.1441e+09 5.1155e+09  0.56%   4.0  315s
+ 42338 42188 5.1435e+09 11857 1257 5.1441e+09 5.1155e+09  0.56%   4.0  321s
+ 43049 42901 5.1435e+09 12053 1260 5.1441e+09 5.1155e+09  0.56%   3.9  325s
+ 43726 43578 5.1435e+09 12250 1265 5.1441e+09 5.1155e+09  0.56%   3.9  330s
+ 44439 44290 5.1435e+09 12449 1268 5.1441e+09 5.1155e+09  0.56%   3.9  335s
+H44808 44660                    5.144106e+09 5.1155e+09  0.56%   3.9  337s
+ 45126 44977 5.1435e+09 12642 1261 5.1441e+09 5.1155e+09  0.56%   3.9  342s
+ 45577 45429 5.1435e+09 12778 1257 5.1441e+09 5.1155e+09  0.56%   3.9  346s
+ 45987 45838 5.1435e+09 12905 1260 5.1441e+09 5.1155e+09  0.56%   3.9  350s
+ 46467 46319 5.1435e+09 13061 1247 5.1441e+09 5.1155e+09  0.56%   3.9  355s
+ 47107 46958 5.1435e+09 13339 1247 5.1441e+09 5.1155e+09  0.56%   3.9  360s
+ 48137 47987 5.1435e+09 13714 1245 5.1441e+09 5.1155e+09  0.56%   3.9  365s
+ 49147 48999 5.1435e+09 14086 1248 5.1441e+09 5.1155e+09  0.56%   3.9  371s
+ 49868 49720 5.1435e+09 14366 1248 5.1441e+09 5.1155e+09  0.56%   3.9  375s
+ 50865 50715 5.1435e+09 14731 1238 5.1441e+09 5.1155e+09  0.56%   3.9  381s
+ 51548 51398 5.1435e+09 14925 1235 5.1441e+09 5.1155e+09  0.56%   3.9  386s
+ 52290 52142 5.1435e+09 15120 1232 5.1441e+09 5.1155e+09  0.56%   3.9  390s
+ 52947 52798 5.1435e+09 15313 1235 5.1441e+09 5.1155e+09  0.56%   3.9  396s
+ 53606 53458 5.1435e+09 15508 1230 5.1441e+09 5.1155e+09  0.56%   3.9  401s
+ 54075 53925 5.1435e+09 15650 1230 5.1441e+09 5.1155e+09  0.56%   3.9  405s
+ 54770 54621 5.1435e+09 15851 1228 5.1441e+09 5.1155e+09  0.56%   3.9  410s
+ 55455 55304 5.1435e+09 16049 1228 5.1441e+09 5.1155e+09  0.56%   3.9  415s
+ 56162 56014 5.1435e+09 16262 1230 5.1441e+09 5.1155e+09  0.56%   3.9  421s
+ 56617 56466 5.1435e+09 16400 1230 5.1441e+09 5.1155e+09  0.56%   3.9  425s
+H56750 56600                    5.144106e+09 5.1155e+09  0.56%   3.9  425s
+ 57264 57114 5.1435e+09 16590 1228 5.1441e+09 5.1155e+09  0.56%   3.9  431s
+ 57756 57608 5.1435e+09 16738 1228 5.1441e+09 5.1155e+09  0.56%   3.9  435s
+ 58460 58312 5.1435e+09 16949 1228 5.1441e+09 5.1155e+09  0.56%   3.9  442s
+ 58936 58787 5.1435e+09 17093 1231 5.1441e+09 5.1155e+09  0.56%   3.9  445s
+ 59625 59476 5.1435e+09 17304 1221 5.1441e+09 5.1155e+09  0.56%   3.9  451s
+ 60079 59927 5.1435e+09 17434 1221 5.1441e+09 5.1155e+09  0.56%   3.9  456s
+ 60752 60602 5.1435e+09 17616 1221 5.1441e+09 5.1155e+09  0.56%   3.9  460s

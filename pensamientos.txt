@@ -5,3 +5,5 @@ Salen productos terminados
 
 
 Calcular para la semana cuánta MP necesito (demanda menos inventario)
+
+Falta incorporar costos de orden de inventario
